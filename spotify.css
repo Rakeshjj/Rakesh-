@@ -1,0 +1,552 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#navsection{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid black; */
+    background-color: black;
+    /* position: absolute; */
+    
+}
+#navarticle
+{
+    height: 80px;
+    width: 80%;
+    /* border: 2px solid blue; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#navlogo 
+{
+    
+    height: 80px;
+    width: 132px;
+    padding-top: 15px;
+    
+}
+#navlogo svg{
+    fill: white;
+} 
+#navmenu
+{
+    height: 80px;
+    width: 492px;
+    /* text-decoration: none; */
+}
+#navmenu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+#navmenu ul li{
+    color:white;
+    
+}
+#navmenu ul li a{
+           text-decoration: none;
+           color: white;
+           font-size: 17.4px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+           
+           font-weight: 700;
+}
+#navmenu ul li a:hover{
+    color: rgb(141, 189, 141);
+}
+
+#homesection
+{
+    width: 100%;
+    height: 600px;
+    border: 2px solid rgb(173, 7, 7);
+    display: flex;
+     /* background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-position: center -138px; */
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    /* background-position: left -10px bottom -160px; */
+    /* background-repeat: no-repeat; */
+
+    text-align: center;
+    width: 100%;
+
+}
+#homearticle{
+    width: 80%;
+    height: 600px;
+    /* border: 2px solid blue; */
+    margin: 0 auto;
+    display: flex;
+}
+#homediv1 svg
+{
+    width: 286px;
+    height: 573px;
+}
+#homediv1
+{
+   padding-left: 40px;
+   padding-top: 88px;
+   padding-right: 88px;
+   
+}
+ #homediv1 img
+ {
+    padding-left: 4px;
+    margin-top: -600px;
+    position: relative;
+    padding-right: 3px;
+    justify-content: center;
+    bottom: 80px;
+ }
+#homediv2{ width: 60%;
+    height: 600px;
+    /* border: 2px solid red; */
+    padding-top: 130px;
+    font-size: 57px;
+    color: white;
+    font-weight: 900;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+
+}
+ 
+#homediv2 button 
+{
+    padding-top: 10px;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: normal;
+    margin-left: -550px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+  
+}
+#homediv2 .art-button 
+{
+ border-radius: 30px;
+ color: black;
+ margin-top: 30px;
+ border: 2px solid white;
+ height: 50px;
+ width: 190px;
+ padding-top: 15px;
+ background-color: white;
+ font-weight: 600;
+ font-size: 11px;
+ line-height: 20px;   
+}
+#homediv2 .art-button a{
+    text-decoration: none;
+}
+#homediv h1{
+    font-size: 60px;
+    font-family: cursive;
+    color: white;
+    margin-top: -160px;
+    margin-left: 100px;
+    padding-left: 400px;
+    
+    
+}
+#homediv button
+{
+    
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    
+}
+#homediv button a:hover
+{
+  transform: scale(2);
+}
+
+#symbol-sec
+{
+    height: 595px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid rgb(238, 10, 10);
+}
+#symbol-art
+{
+    height: 595px;
+    width: 90%;
+    border: 2px solid blue; 
+    display: flex;
+    justify-content: space-around; 
+}
+#symbol-content
+{
+    height: 595px;
+    width: 92%;
+    border: 2px solid deeppink;
+    font-size: 23px;
+    font-weight: bolder;
+    padding-top: 70px;
+    text-align: center;
+}
+#symbol-content h2
+{
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 60px;
+}
+#symbol-parent
+{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(5, 238, 5);
+}
+.symbol-child
+{
+    margin-top: 30px;
+    height: 357px;
+    width: 230px;
+    letter-spacing: -0.015em;
+}
+.child-head
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 21px;
+    line-height: 1.3em;
+}
+.child-content
+{
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: normal;
+}
+.child-img
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 142px;
+    width: 142px;
+}
+
+#sec2
+{
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid rgb(228, 13, 49); */
+}
+#div2
+{
+    
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+#div2 h1
+{
+     padding-left: 30px;
+     padding-top: 160px;  
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+
+}
+#div2 h2
+{
+    color: white;
+    padding-left: 450px;
+    padding-top: px;
+    font-size: 60px;
+    font-style: normal;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    
+}
+#sec3
+{
+    height: 600px;
+    width: 100%;
+    border: 2px solid orangered;
+}
+#div3 h1{
+    padding-left: 600px;
+    padding-top: 80px;
+    font-size: 50px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+
+}
+#div3 p
+{
+    padding-left: 180px;
+    padding-top: 65px;
+    font-size: 20px;
+}
+#div3 span
+{
+    padding-left: 700px;
+
+}
+#sec4
+{
+    height: 600px;
+    width: 100%;
+    border: 2px solid rgb(228, 142, 14);
+}
+
+#div4
+{
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    padding-top: 203px;
+    height: 600px;
+}
+#div4 h1{
+    font-size: 80px;
+    color: white;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    /* padding-left: 380px; */
+    text-align: center;
+}
+#div4 .art-button1 
+{
+ border-radius: 30px;
+ color: black;
+ margin-left: 600px;
+ border: 2px solid white;
+ height: 50px;
+ width: 190px;
+ padding-top: 13px;
+ padding-left: 38px;
+ background-color: white;
+ font-weight: 600;
+ font-size: 11px;
+ line-height: 20px;   
+}
+#div4 .art-button1 a{
+    text-decoration: none;
+}
+
+#footersec
+{
+    height: 600px;
+    width: 100%;
+    border: 2px solid red;
+    background-color: black;
+    margin: 0 ;
+}
+#footermain1
+{
+ height: 400px;
+ width: 80%;
+ /* border: 2px solid blue; */
+ margin-left: 150px;
+ margin-top: 80px;
+ display: flex;
+}
+#submain1
+{
+    height: 80px;
+    width: 232px;
+    padding-top: 45px;
+}
+#submain2
+{
+height: 400px;
+width: 50%;
+/* border: 2px solid rgb(223, 20, 54); */
+display: flex;
+}
+#submain2 #child1
+{
+    height: 400px;
+    width: 200px;
+    /* border: 2px solid rgb(209, 29, 29); */
+}
+#child1 dt {
+    margin-top: 50px;
+    margin-left: 35px;
+    color: grey;
+    line-height: 50.9px;
+}
+#child2 dt {
+    margin-top: 50px;
+    margin-left: 35px;
+    color: grey;
+    line-height: 50.9px;
+}#child3 dt {
+    margin-top: 50px;
+    margin-left: 35px;
+    color: grey;
+    line-height: 50.9px;
+}
+#child1 dl dd a{
+    margin-top: 50px;
+    margin-left: 35px;
+    font-size: 18px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: rgb(241, 236, 236);
+    line-height: 50.9px;
+    text-decoration: none;
+}
+#child1 dl dd a:hover{
+    color: rgb(125, 219, 125);
+}
+#child2 dl dd a:hover{
+    color: rgb(134, 223, 134);
+}#child3 dl dd a:hover{
+    color: rgb(124, 223, 124);
+}
+#submain1 svg
+{
+    width: 190px;
+    height: 100px;
+    padding-left: 50px;
+    fill: white;
+}
+#child2 dl dd a{
+    margin-top: 50px;
+    margin-left: 35px;
+    font-size: 18px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: rgb(241, 236, 236);
+    line-height: 50.9px;
+    text-decoration: none;
+}
+#child3 dl dd a{
+    margin-top: 50px;
+    margin-left: 35px;
+    font-size: 18px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: rgb(241, 236, 236);
+    line-height: 50.9px;
+    text-decoration: none;
+}
+#submain2 #child2
+{
+    height: 400px;
+    width: 200px;
+    /* border: 2px solid rgb(7, 182, 235); */
+}
+#submain2 #child3
+{
+    height: 400px;
+    width: 200px;
+    /* border: 2px solid rgb(218, 23, 23); */
+}
+#submain3
+{
+    height: 400px;
+    width: 30%;
+    /* border: 2px solid gray; */
+}
+#submain3 a{
+    color: white;
+    padding-left: 20px;
+    
+}
+#submain3 a:hover
+{
+    color: rgb(133, 224, 133);
+}
+#footermain2
+{
+  height: 39px;
+  width: 80%;
+  /* border: 2px solid rgb(30, 228, 4); */
+  margin-left: 150px;
+}
+#footermain3
+{
+    height: 39px;
+    width: 80%;
+    /* border: 2px solid rgb(248, 5, 139); */
+    margin-left: 150px;
+}
+#footermain2 a{
+    padding-left: 1080px;
+    color: white;
+}
+#footermain3 {
+    padding-left: px;
+    display: flex;
+}
+#footermain3 ul
+{
+ display: flex;
+ column-gap: 15px;
+ justify-content: space-between;
+ align-items: center;
+ }
+#footermain3 ul li a
+{
+ color:grey;
+ text-decoration: none;
+}
+#footermain3 ul li a:hover
+{
+  color: green;
+}
+#footermain3 a:hover
+{
+  color: rgb(112, 223, 112);
+}
+#footermain2 a:hover
+{
+  color: rgb(94, 223, 94);
+}
+#artfooter a{
+    color: white;
+    padding-left: 1220px;
+}
+#artfooter a:hover
+{
+    color: green;
+}
+#submain3 #icons
+{
+    width: 250px;
+    margin-left: 60px;
+    margin-top: 50px;
+    height: 60px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+#icons li
+{
+    width: 35px;
+    height: 35px;
+    /* border: 2px solid blue; */
+    border-radius: 30px;
+    
+}
+#icons #li1 
+{
+    
+    background-image: url(./facebook.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-left: 25px;
+}
+#icons #li2
+{
+    background-image: url(./insta.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-left: 25px;
+}
+#icons #li3
+{
+    background-image: url(./twitter.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+
+}
