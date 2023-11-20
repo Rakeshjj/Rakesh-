@@ -190,6 +190,7 @@
 {
     height: 595px;
     width: 92%;
+    display:flex;
     border: 2px solid deeppink;
     font-size: 23px;
     font-weight: bolder;
